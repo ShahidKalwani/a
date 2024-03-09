@@ -1,3 +1,9 @@
 body {
-  background:"red" !important
+  background:red !important;
   }
+.grid{
+  background:blue !important;
+}
+.body {
+  background:black !important;
+}
