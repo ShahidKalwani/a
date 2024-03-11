@@ -19,9 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Insert the script tag after the head
       head.appendChild(script, head.nextSibling);
   };
-  // Get the head element and insert the jQuery script before any other scripts
-  var head = document.getElementsByTagName('head')[0];
-  head.insertBefore(jqueryScript, head.firstChild);
+
 
   window.LogRocket && window.LogRocket.init('ewqf2k/tese');
   });
