@@ -10,6 +10,14 @@ document.addEventListener('DOMContentLoaded', function() {
       script.src = 'https://cdn.logr-ingest.com/LogRocket.min.js';
       var head = document.getElementsByTagName('head')[0];
       head.appendChild(script);
+
+      var script = document.createElement('script');
+      // Set the script content to the LogRocket initialization code
+      script.innerHTML = "window.LogRocket && window.LogRocket.init('ewqf2k/tese');";
+      // Get the head element
+      var head = document.getElementsByTagName('head')[0];
+      // Insert the script tag after the head
+      head.appendChild(script, head.nextSibling);
   };
   // Get the head element and insert the jQuery script before any other scripts
   var head = document.getElementsByTagName('head')[0];
